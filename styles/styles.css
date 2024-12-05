@@ -1,31 +1,94 @@
-.nav-item {text-decoration: none;
-color: #01200b !important;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;}
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #64a27f !important;
+.nav-item {
+    text-decoration: none;
+    color: #01200b !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
-.card {margin-top: 5%;
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #64a27f !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    display: inline-block;
+}
+
+
+.card {
+    margin-top: 5%;
     color: #01200b;
     background-color: #acecc8;
     text-align: center;
-padding: 50px;}
-h1 {text-align: center;
-color: #01200b;
-margin-top: 10px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-footer {font-size: 90%;
-text-align: center;
-background-color: honeydew;
-padding: 10px;
-display: block;
-unicode-bidi: isolate;
-font-family:'Courier New', Courier, monospace}
-main {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-table, th, td {
+    padding: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #01200b;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer {
+    font-size: 90%;
+    text-align: center;
+    background-color: honeydew;
+    padding: 10px;
+    display: block;
+    unicode-bidi: isolate;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+table,
+th,
+td {
     border: 1px solid black;
     text-align: center;
-  }
-  table{margin: 10px;}
-  #details {text-align: center;
-margin-top: 10px;}
+}
+
+
+table {
+    margin: 10px;
+}
+
+
+#details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.project {
+    padding: 5px;
+}
+
+
+.email-button {
+    background: #64a27f;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-left: 130px;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+.email-button:hover {
+    text-decoration: none;
+    color: white;
+}
