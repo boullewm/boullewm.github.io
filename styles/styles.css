@@ -21,6 +21,8 @@
     background-color: #acecc8;
     text-align: center;
     padding: 50px;
+    margin: 0 auto;
+    float: none;
 }
 
 
@@ -48,12 +50,9 @@ main {
 }
 
 
-table,
-th,
-td {
-    border: 1px solid black;
-    text-align: center;
-}
+
+#border table, th, td{border:1px solid black;
+text-align: center;}
 
 
 table {
@@ -67,7 +66,10 @@ table {
 }
 
 
-img {
+#resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     height: auto;
     width: auto\9;
@@ -75,6 +77,9 @@ img {
 
 .project {
     padding: 5px;
+        max-width: 80%;
+        height: auto;
+        width: auto\9;
 }
 
 
@@ -92,3 +97,46 @@ img {
     text-decoration: none;
     color: white;
 }
+
+h3 {text-align: center;
+}
+
+ul.no-bullets li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+.links li{list-style-type: none;
+text-align: center;
+margin-left: 35%;
+background: #64a27f;
+border-radius: 5px;
+color: white;
+max-width: 30%;
+text-decoration: none;}
+
+iframe {padding-left: 10%;
+margin-top: 10px;}
+
+h2 {text-align: center;}
+
+.personal {margin-left: 50px;
+    margin-top: 10px;
+    max-width: 20%;
+    height: auto;
+    width: auto\9;
+}
+#about {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 40px;
+    max-width: 50%;
+    height: auto;
+    width: auto\9;
+}
+a { color: inherit; } 
+
+.project1 {    padding: 5px;
+    max-height: 50%;
+    height: auto\9;
+    width: auto;}
