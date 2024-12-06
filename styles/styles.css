@@ -51,13 +51,9 @@ main {
 
 
 
-#border table, th, td{border:1px solid black;
-text-align: center;}
+#border {border: 1px solid black;
+text-align: center; margin: 10px;}
 
-
-table {
-    margin: 10px;
-}
 
 
 #details {
@@ -126,14 +122,10 @@ h2 {text-align: center;}
     height: auto;
     width: auto\9;
 }
-#about {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 40px;
-    max-width: 50%;
-    height: auto;
-    width: auto\9;
-}
+
+#about{border-spacing: 0; border-collapse: collapse; }
+
+
 a { color: inherit; } 
 
 .project1 {    padding: 5px;
